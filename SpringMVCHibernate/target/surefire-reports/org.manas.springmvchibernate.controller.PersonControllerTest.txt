@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: org.manas.springmvchibernate.controller.PersonControllerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.657 sec <<< FAILURE!
+testAddPerson(org.manas.springmvchibernate.controller.PersonControllerTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+Wanted but not invoked:
+personService.updatePerson(
+    id=1, name=Aaron, country=USA
+);
+-> at org.manas.springmvchibernate.controller.PersonControllerTest.testAddPerson(PersonControllerTest.java:79)
+Actually, there were zero interactions with this mock.
+
+	at org.manas.springmvchibernate.controller.PersonControllerTest.testAddPerson(PersonControllerTest.java:79)
+

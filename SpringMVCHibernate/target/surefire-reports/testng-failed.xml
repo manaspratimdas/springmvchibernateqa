@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [org.manas.springmvchibernate.controller.PersonControllerTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="org.manas.springmvchibernate.controller.PersonControllerTest">
+        <methods>
+          <include name="setup"/>
+          <include name="testAddPerson"/>
+        </methods>
+      </class> <!-- org.manas.springmvchibernate.controller.PersonControllerTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [org.manas.springmvchibernate.controller.PersonControllerTest] -->
